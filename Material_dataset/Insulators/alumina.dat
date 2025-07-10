@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------
+Material properties for ALUMINA substructure material
+-------------------------------------------------------------------------
+
+Specific heat capacity (J/kg-K)
+cp = 87.4609180616 + 3.1467711444 * T - 0.0032471325 * T^2 + 0.0000011752 * T^3
+
+Isotropic conductivity W/m-K)
+k = 0.0255089286 + 0.0001785714 * T
+
+Density (kg/m^3)
+rho = const = 400
+
+Surface integral emissivity 
+eps = const. = 0.8

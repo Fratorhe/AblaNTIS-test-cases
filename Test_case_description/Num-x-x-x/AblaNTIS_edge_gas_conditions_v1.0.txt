@@ -1,0 +1,99 @@
+%%%%%%%%%%%%%%%%%
+ZU1 conditions  %
+%%%%%%%%%%%%%%%%%
+
+------------------------------
+EXPERIMENTAL TEST CONDITION:
+------------------------------
+Dyn. pressure [Pa]: 	 16.0 
+Stat. pressure [Pa]: 	 5000.0 
+Heat Flux [kW/m^2]: 	 288.0 
+test gas: 		 air  
+Probe radius [m]: 	 0.025 
+
+------------------------------
+BOUNDARY LAYER EDGE CONDITION: 
+------------------------------
+Te [K]: 		 3469.8 
+Pe [Pa]: 		 5000.0 
+he [J/kg]: 		 7.339e+06 
+rhoe [kg/m^3]:           4.257e-03 
+mue [Pa*s]:              1.182e-04 
+Tw [K]: 		 350.0 
+hw [J/kg]: 		 5.883e+05
+Ve [m/2]:                31.8 
+
+------------------------------
+VELOCITY: 		 
+------------------------------
+Vs [m/s]: 		 82.7 (free-stream velocity, i.e., the velocity of the flow before it starts to feel the influence of the sample; this happens well before the boundary layer in the stagnation-point region)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%
+Num-2-SEB-Z     %
+%%%%%%%%%%%%%%%%%
+
+------------------------------
+EXPERIMENTAL TEST CONDITION:
+------------------------------
+Dyn. pressure [Pa]: 	 14.98 
+Stat. pressure [Pa]: 	 5000.0 
+Heat Flux [kW/m^2]: 	 300.0 
+test gas: 		 air  
+Probe radius [m]: 	 ESA standard probe (i.e., flatter than the hemispherical with 2.5 cm radius; the corresponding heat flux for the hemispherical is ~ 500 kW/m^2)     
+
+------------------------------
+BOUNDARY LAYER EDGE CONDITION: 
+------------------------------
+Te [K]: 		 4454.6
+Pe [Pa]: 		 5000.0
+he [J/kg]: 		 9.7235e+06
+rhoe [kg/m^3]:           3.185e-03
+mue [Pa*s]:              1.450e-04
+Tw [K]: 		 350.0
+hw [J/kg]: 		 1.009e+06
+Ve [m/2]:                41.5 
+
+------------------------------
+VELOCITY: 		 
+------------------------------
+Vs [m/s]: 		 92.5 (free-stream velocity, i.e., the velocity of the flow before it starts to feel the influence of the sample; this happens well before the boundary layer in the stagnation-point region)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%
+Num-3-SEB-Z     %
+%%%%%%%%%%%%%%%%%
+
+------------------------------
+EXPERIMENTAL TEST CONDITION:
+------------------------------
+Dyn. pressure [Pa]: 	 95.97
+Stat. pressure [Pa]: 	 5000.0 
+Heat Flux [kW/m^2]: 	 1300 
+test gas: 		 air  
+Probe radius [m]: 	 ESA standard probe (i.e., flatter than the hemispherical with 2.5 cm radius; the corresponding heat flux for the hemispherical is ~ 500 kW/m^2)          
+
+------------------------------
+BOUNDARY LAYER EDGE CONDITION: 
+------------------------------
+Te [K]: 		 6147.8
+Pe [Pa]: 		 5000.0
+he [J/kg]: 		 28.448e+06
+rhoe [kg/m^3]:           1.657e-03
+mue [Pa*s]:              1.853e-04
+Tw [K]: 		 350.0
+hw [J/kg]: 		 3.100e+06
+Ve [m/2]:                142.5
+
+------------------------------
+VELOCITY: 		 
+------------------------------
+Vs [m/s]: 		324.5  (free-stream velocity, i.e., the velocity of the flow before it starts to feel the influence of the sample; this happens well before the boundary layer in the stagnation-point region)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%
+Num-4-SEB-Z     %
+%%%%%%%%%%%%%%%%%
+

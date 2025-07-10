@@ -1,0 +1,155 @@
+          _     _       _   _ _______ _____  _____
+    /\   | |   | |     | \ | |__   __|_   _|/ ____|
+   /  \  | |__ | | __ _|  \| |  | |    | | | (___
+  / /\ \ | '_ \| |/ _` | . ` |  | |    | |  \___ \
+ / ____ \| |_) | | (_| | |\  |  | |   _| |_ ____) |
+/_/    \_\_.__/|_|\__,_|_| \_|  |_|  |_____|_____/
+
+Boundary and initial conditions for the 2D experimental test cases
+
+
+----------------------------
+ Nomenclature
+----------------------------
+Pw    -- Surface pressure at stagnation point
+H0    -- Total enthalpy of edge gas (h_e + u_e^2/2)
+CH    -- Heat transfer coefficient (rho_e*u_e*StH) at stagnation point
+Ti    -- Initial sample temperature (initial temperature of the TC raising the least in each specific case)
+
+h_e   -- Edge gas enthalpy
+u_e   -- Edge gas flow speed
+rho_e -- Edge gas density
+h_w   -- Wall enthalpy
+StH   -- Stanton number for heat transfer (heat_flux/(H0-hw))
+
+
+----------------------------
+ Notes
+----------------------------
+- "Total test duration" includes both the heating (plasma on) and the cooling (plasma off) and corresponds to the time for which thermocouple measurement data are provided. 
+- The provided "total enthalpy" was used for the computation of the CH (provided for each test in the specific test-case folder) through CFD simulations w/ hot wall (isothermal at the measured steady-state experimental wall temperature) and w/o ablation.
+- The distribution of CH and Pw along the surface are provided for each Exp-x-SEB-x case in the specific "BC_data" folder.
+
+%%%%%%%%%%%%%
+% Exp-1-x-P % 
+%%%%%%%%%%%%%
+Plasmatron-test name: P-N-50-q300 
+Total test duration: 125 s
+Gas: Nitrogen
+Ti [K]: 302.45
+
+-------------------
+ Surface conditions
+-------------------
+Time_[s]  Plasma_heat_on/off  CH_[kg/m^2/s]  Pw_[Pa]  H0_[MJ/kg]
+0.0       ON                  4.576e-2       5014     6.527     
+81.1      OFF                 0.0            5014     5.391e-2  
+125     OFF                 0.0            5014     5.391e-2
+
+
+%%%%%%%%%%%%%
+% Exp-2-x-Z %
+%%%%%%%%%%%%%
+Plasmatron-test name: Z-A-50-q300
+Total test duration: 215 s
+Gas: Air
+Ti [K]: 302.85
+
+-------------------
+ Surface conditions
+-------------------
+Time_[s]  Plasma_heat_on/off  CH_[kg/m^2/s]  Pw_[Pa]  H0_[MJ/kg]
+0.0       ON                  5.1545e-2      5417     7.883
+160.6     OFF                 0.0            5417     5.248e-2
+215       OFF                 0.0            5417     5.248e-2
+
+
+%%%%%%%%%%%%%
+% Exp-3-x-P %
+%%%%%%%%%%%%%
+Plasmatron-test name: P-N-100-q2500
+Total test duration: 97 s
+Gas: Nitrogen
+Ti [K]: 301.55
+
+-------------------
+ Surface conditions
+-------------------
+Time_[s]  Plasma_heat_on/off  CH_[kg/m^2/s]  Pw_[Pa]  H0_[MJ/kg]
+0.0       ON                  6.951e-2       10045    48.521
+30.6      OFF                 0.0            10045    5.391e-2
+97        OFF                 0.0            10045    5.391e-2
+
+
+%%%%%%%%%%%%%
+% Exp-3-x-Z % 
+%%%%%%%%%%%%%
+Plasmatron-test name: Z-N-100-q2500
+Total test duration: 1103 s (i.e., 50 s + cooldown + 103 s)
+Gas: Nitrogen
+Ti_part1 [K]: 309.35
+
+-------------------
+ Surface conditions
+-------------------
+Time_[s]  Plasma_heat_on/off  CH_[kg/m^2/s]  Pw_[Pa]  H0_[MJ/kg] 
+0.0       ON                  6.880e-2       9546     48.204
+5.6       OFF                 0.0            9546     5.391e-2
+50        OFF                 0.0            9546     5.391e-2
+1000.1    ON                  6.728e-2       10039    47.069
+1061.1    OFF                 0.0            10039    5.391e-2
+1103.1    OFF                 0.0            10039    5.391e-2
+                
+
+%%%%%%%%%%%%%
+% Exp-4-x-Z %
+%%%%%%%%%%%%%
+Plasmatron-test name: Z-A-100-q2500
+Total test duration: 169 s
+Gas: Air
+Ti [K]: 310.05
+
+-------------------
+ Surface conditions
+-------------------
+Time_[s]  Plasma_heat_on/off  CH_[kg/m^2/s]  Pw_[Pa]  H0_[MJ/kg]
+0.0       ON                  7.739e-2       10063    44.920
+90.3      OFF                 0.0            10063    5.248e-2
+169       OFF                 0.0            10063    5.248e-2
+
+
+%%%%%%%%%%%%%%%%%%
+% Exp-5-x-Z-long %
+%%%%%%%%%%%%%%%%%%
+Plasmatron-test name: Z-A-25-q4500-sup (45s)
+Total test duration: 126 s
+Gas: Air
+Ti [K]: 307.25
+Note: for this test the CH and the Pw (at stagnation and its distribution) are provided also for the final shape. Check the test case description booklet for the details on how to handle this in the numerical test case.
+
+-------------------
+ Surface conditions
+-------------------
+Time_[s]  Plasma_heat_on/off  CH_[kg/m^2/s]  Pw_[Pa]  H0_[MJ/kg] 
+0.0       ON                  1.671e-1       2674     34.799
+44.7      ON                  1.603e-1       2569     34.799
+44.8      OFF                 0.0            550      5.248e-2
+126       OFF                 0.0            550      5.248e-2
+
+
+%%%%%%%%%%%%%%%%%%%
+% Exp-5-x-Z-short %
+%%%%%%%%%%%%%%%%%%%
+Plasmatron-test name: Z-A-25-q4500-sup (20 s)
+Total test duration: 120 s
+Gas: Air
+Ti [K]: 293.65
+Note: This test is not officially part of the AblaNTIS numerical tests. The experiment was an exact repetition of the 45-s test. The CH for the ablated shape at 20 s hasn't been computed. The Surface and initial conditions are provideed only for completeness. 
+
+-------------------
+ Surface conditions
+-------------------
+Time_[s]  Plasma_heat_on/off  CH_[kg/m^2/s]  Pw_[Pa]  H0_[MJ/kg]
+0.0       ON                  1.671e-1       2674     34.799
+20.1      OFF                 0.0            550      5.248e-2
+120       OFF                 0.0            550      5.248e-2

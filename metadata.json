@@ -1,0 +1,38 @@
+{
+  "upload_type": "dataset",
+  "title": "AblaNTIS-test-cases: Database for the ablative test cases of the AblaNTIS project",
+  "creators": [
+    { "name": "Turchi, Alessandro" },
+    { "name": "Helber, Bernd" },
+    { "name": "Torres-Herrador, Francisco" },
+    { "name": "Fagnani, Andrea" },
+    { "name": "Magin, Thierry E." },
+    { "name": "Chipperfield, Luke" },
+    { "name": "Pascon, Frederic" },
+    { "name": "Ritter, Heiko" }
+  ],
+  "description": "Dataset developed under ESA GSTP contract no. 4000122914/18/NL/KML, containing experimental and numerical test cases for ablative TPS validation. Includes results from VKI plasma wind tunnel testing and simulations using three state-of-the-art tools. Supports the accompanying publication on ablation benchmarking.",
+  "access_right": "open",
+  "license": "CC-BY-NC-4.0",
+  "keywords": [
+    "ablation",
+    "TPS",
+    "ESA",
+    "carbon-phenolic",
+    "material response",
+    "hypersonic",
+    "VKI",
+    "plasma wind tunnel"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/yyyyyyy",
+      "relation": "isSupplementTo",
+      "resource_type": "publication"
+    }
+  ],
+  "communities": [
+    { "identifier": "esa" }
+  ],
+  "notes": "This dataset was developed as part of the ESA GSTP AblaNTIS project. Commercial use is restricted under CC BY-NC 4.0. For permissions, please contact the authors. Acknowledgements include DLR, FZ Jülich, UGhent, Dr. Jean Lachaud, and VKI technical staff."
+}

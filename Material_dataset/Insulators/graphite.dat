@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------
+Material properties for GRAPHITE substructure materials
+-------------------------------------------------------------------------
+
+Specific heat capacity (J/kg-K)
+cp = 878.5714286 + 0.305573593 * T + 0.0008625 * T^2 -5.01515E-07 * T^3 + 7.72727E-11 T^4
+
+Isotropic conductivity W/m-K)
+k = const = 92
+
+Density (kg/m^3)
+rho = const = 1720  
+
+Surface integral emissivity 
+eps = const. = 0.94  
+
