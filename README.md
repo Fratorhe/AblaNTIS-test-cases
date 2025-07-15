@@ -8,7 +8,9 @@ This dataset contains experimental and numerical test cases for ablative thermal
 
 **Dataset:**
 
-> Turchi, A., Helber, B., Torres-Herrador, F., Fagnani, A., Magin, T.E., Chipperfield, L., Pascon, F., Ritter, H. (2025). *AblaNTIS-test-cases: Database for the ablative test cases of the AblaNTIS project* [Data set]. Zenodo. https://doi.org/xxxxxxx
+> Turchi, A., Helber, B., Torres-Herrador, F., Fagnani, A., Magin, T.E., Chipperfield, L., Pascon, F., Ritter, H. (2025). *AblaNTIS-test-cases* [Data set].
+
+[![DOI](https://zenodo.org/badge/1017550638.svg)](https://doi.org/10.5281/zenodo.15938723)
 
 **Article:**
 
